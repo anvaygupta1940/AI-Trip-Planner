@@ -29,7 +29,7 @@ const Header = () => {
     // login function 
     const login = useGoogleLogin({
         onSuccess: (resp) => {
-            // console.log("success resp>>", resp);
+            console.log("success resp>>", resp);
             getUserInfo(resp);
         },
         onError: (error) => console.log("Error>>", error)
@@ -42,7 +42,7 @@ const Header = () => {
                 Accept: "Application/json"
             }
         }).then((resp) => {
-            // console.log("user info>>", resp);
+            console.log("user info>>", resp);
             localStorage.setItem("user", JSON.stringify(resp?.data));
             setOpenDialog(false);
         })

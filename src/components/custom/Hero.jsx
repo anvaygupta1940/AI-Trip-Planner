@@ -15,9 +15,6 @@ const Hero = () => {
             <Link to={"/create-trip"}>
                 <Button className=" bg-gradient-to-b from-teal-500 to-teal-800 w-[250px]">Get Started</Button>
             </Link>
-
-
-
         </div>
     )
 }

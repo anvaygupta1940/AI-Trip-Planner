@@ -134,7 +134,7 @@ const CreateTrip = () => {
     );
 
     return (
-        <div className=' mt-10 p-5 md:px-10 lg:px-34 xl:px-46'>
+        <div className=' mt-10 p-5 md:px-10 lg:px-34 xl:px-46 '>
 
             <h1 className=' text-4xl font-bold my-3 bg-gradient-to-r from-teal-100 to-teal-500 bg-clip-text text-transparent'>Tell us your travel preferences. <span className=' text-white'>🏖️🌄</span></h1>
             <p className=' text-lg text-gray-500'>Just provide some basic information, and our trip planner will generate a
